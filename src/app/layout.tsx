@@ -14,6 +14,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+export const metadata: Metadata = {
+  title: "terminal",
+  description: "My website",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
